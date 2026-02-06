@@ -7,17 +7,17 @@ let threePoint = document.getElementById("point-3")
 let count = 0
 
 function incrementOne(){
-count +=1
-firstTeam.textContent = count
+ count +=1
+ firstTeam.textContent = count
 
 }
 function incrementTwo(){
-count +=2
-
+ count +=2
+ firstTeam.textContent = count
 
 }
 function incrementThree(){
-count +=3
-
+ count +=3
+ firstTeam.textContent = count
 
 }
