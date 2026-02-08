@@ -6,3 +6,11 @@ body {
     display: flex;
     justify-content: space-around;
 }
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+#team-1, #team-2 {
+    font-family: "Cursed Timer ULiL", monospace;
+}
