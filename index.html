@@ -5,23 +5,27 @@
 
     <body>
         <div class="container">
-            <div>
+            <div id="info-container">
                 <h3>HOME</h3>
 
-                <h2 id="team-1">0</h2>
+                <div id="point-container"></dic><h2 id="team-1">0</h2></div>
 
-                <button id="point-1" onclick="increment(firstTeam, 1)">+1</button>
-                <button id="point-2" onclick="increment(firstTeam, 2)">+2</button>
-                <button id="point-3" onclick="increment(firstTeam, 3)">+3</button>
+                <div id="btn-team-1">
+                    <button id="point-1" onclick="increment(firstTeam, 1)">+1</button>
+                    <button id="point-2" onclick="increment(firstTeam, 2)">+2</button>
+                    <button id="point-3" onclick="increment(firstTeam, 3)">+3</button>
+                </div>
             </div>
+
             <div>
                 <h3>GUEST</h3>
-
-                <h2 id="team-2">0</h2>
-
-                <button id="point-team2-1" onclick="increment(secondTeam, 1)"">+1</button>
-                <button id="point-team2-2" onclick="increment(secondTeam, 2)">+2</button>
-                <button id="point-team2-3" onclick="increment(secondTeam, 3)">+3</button>
+                <div id="point-container-1"><h2 id="team-2">0</h2></div>
+                
+                <div id="btn-team-2">
+                    <button id="point-team2-1" onclick="increment(secondTeam, 1)"">+1</button>
+                    <button id="point-team2-2" onclick="increment(secondTeam, 2)">+2</button>
+                    <button id="point-team2-3" onclick="increment(secondTeam, 3)">+3</button>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>

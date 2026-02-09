@@ -1,16 +1,68 @@
+
 body {
     margin: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
+    
 }
 @font-face {
     font-family: "Cursed Timer ULiL";
     src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+
+
+}
+.container {
+    font-family: "Cursed Timer ULiL", monospace;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C4A6E;
+    padding-bottom: 20px;
+    
+}
+
+h3{
+    text-align: center;
+    color:aliceblue;
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+
+#point-container, #point-container-1{
+    width: 150px;
+    height: 150px;
+    background-color: #0a0000;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 #team-1, #team-2 {
     font-family: "Cursed Timer ULiL", monospace;
+    color: #ff4d6d;
+    font-size: 110px;
+    line-height: 1;
+    margin: 0;
+}
+
+#btn-team-1, #btn-team-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+ 
+}
+
+
+button {
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+    font-family: "Cursed Timer ULiL", monospace;
+    font-weight: 700;
+    font-size: 1rem;
+
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
